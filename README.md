@@ -57,19 +57,20 @@ fitkg_types.json格式如下所示：
 ## 例子
 (1)在fitkg-cn上使用训练集进行训练, 在验证集上进行评估。
 
-python ./spert.py train --config configs/duie_train.conf
-
+```
+python ./spert.py train --config configs/fitkg_train.conf
+```
 
 (2) 在测试集上进行评估，由于我们没有测试集，里面参数设置为验证集地址。注意修改路径，如果测试集和验证集一样，（1）和（2）为同一结果。
 
 ```
-python ./spert.py eval --config configs/duie_eval.conf
+python ./spert.py eval --config configs/fitkg_eval.conf
 ```
 
 (3) 修改fitkg_eval.conf里面保存好的模型的地址。进行预测使用的是fitkg_prediction_example.json，里面有三种格式，均可进行预测
 
 ```
-python ./spert.py predict --config configs/example_predict.conf
+python ./spert.py predict --config configs/fitkg_predict.conf
 ```
 
 
