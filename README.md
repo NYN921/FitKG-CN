@@ -40,7 +40,7 @@ train.json和dev.json里面的数据格式如下所示：
 
 ```python
 [
-    {"tokens": ["高", "尔", "夫", "\t", "包", "含", "\t", "T", "H", "E", " ", "P", "U", "T", "T", "I", "N", "G", " ", "G", "R", "E", "E", "N"], "entities": [{"type": "运动项目", "start": 0, "end": 3}, {"type": "专业名词", "start": 7, "end": 24}], "relations": [{"type": "包含", "head": 0, "tail": 1}]},
+    {"tokens": ["高", "尔", "夫", "中", "包", "含", "了", "T", "H", "E", " ", "P", "U", "T", "T", "I", "N", "G", " ", "G", "R", "E", "E", "N"], "entities": [{"type": "运动项目", "start": 0, "end": 3}, {"type": "专业名词", "start": 7, "end": 24}], "relations": [{"type": "包含", "head": 0, "tail": 1}]},
     ......
 ]
 ```
